@@ -52,7 +52,7 @@ jobs:
         with:
           username: cyalater
           password: t,fnmgfhjkm
-      - name push to Docker Hub
+      - name: push to Docker Hub
         uses: docker/build-push-action@v2
         with:
           push: true
