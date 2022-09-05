@@ -57,6 +57,7 @@ jobs:
         with:
           push: true
           tags: cyalater/infra:v2
+  # Деплой проекта на Яндекс облако
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push
